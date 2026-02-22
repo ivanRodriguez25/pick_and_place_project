@@ -1,0 +1,5 @@
+1771717230.3070233 [INFO] [launch]: All log files can be found below /home/user/.ros/log/2026-02-21-23-40-30-302826-docker-desktop-1009
+1771717230.3072824 [INFO] [launch]: Default logging verbosity is set to INFO
+1771717230.3117390 [ERROR] [launch]: Caught exception in launch (see debug for traceback): Caught multiple exceptions when trying to load file of format [py]:
+ - ModuleNotFoundError: No module named 'moveit_configs_utils'
+ - InvalidFrontendLaunchFileError: The launch file may have a syntax error, or its format is unknown

@@ -1,0 +1,16 @@
+1771716968.1703625 [INFO] [launch]: All log files can be found below /home/user/.ros/log/2026-02-21-23-36-08-168457-docker-desktop-695
+1771716968.1705406 [INFO] [launch]: Default logging verbosity is set to INFO
+1771716969.0277557 [INFO] [ros2-1]: process started with pid [697]
+1771716969.0280161 [INFO] [ros2-2]: process started with pid [699]
+1771716969.0281610 [INFO] [ros2-3]: process started with pid [701]
+1771716969.0282526 [INFO] [robot_state_publisher-4]: process started with pid [703]
+1771716969.0283349 [INFO] [create-5]: process started with pid [705]
+1771716969.0284050 [INFO] [ign gazebo-6]: process started with pid [707]
+1771716970.0935485 [INFO] [create-5]: process has finished cleanly [pid 705]
+1771716972.4834120 [INFO] [ros2-3]: process has finished cleanly [pid 701]
+1771716972.4882009 [INFO] [ros2-2]: process has finished cleanly [pid 699]
+1771716972.4999645 [INFO] [ros2-1]: process has finished cleanly [pid 697]
+1771717069.0007269 [WARNING] [launch]: user interrupted with ctrl-c (SIGINT)
+1771717069.1188962 [INFO] [robot_state_publisher-4]: process has finished cleanly [pid 703]
+1771717069.6251760 [ERROR] [ign gazebo-6]: process has died [pid 707, exit code -2, cmd 'ruby /usr/bin/ign gazebo  -r -v 4 empty.sdf --force-version 6'].
+1771717069.6258407 [INFO] [launch]: process[ign gazebo-6] was required: shutting down launched system

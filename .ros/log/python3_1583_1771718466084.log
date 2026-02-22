@@ -1,0 +1,3 @@
+[INFO] [1771718468.083470893] [joint_space_motion]: Retrieved joint names for group arm: ['joint1', 'joint2', 'joint3', 'joint4', 'joint5', 'joint6', 'joint7']
+[INFO] [1771718468.085096209] [joint_space_motion]: Sending joint motion request...
+[INFO] [1771718468.097549336] [joint_space_motion]: Goal accepted :)

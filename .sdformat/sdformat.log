@@ -1,0 +1,232 @@
+Dbg [parser.cc:954] Converting a deprecated source[/usr/share/ignition/ignition-gazebo6/worlds/empty.sdf].
+Dbg [Converter.cc:106] Version[1.6] to Version[1.9]
+  Please use the gz sdf tool to update your SDF files.
+    $ gz sdf -c [sdf_file]
+Dbg [parser.cc:914] No <sdf> element in file[<data-string>]
+Dbg [parser_urdf.cc:1555] extension [<plugin filename="ign_ros2_control-system" name="ign_ros2_control::IgnitionROS2ControlPlugin">
+    <parameters>/home/user/ros2_ws/install/panda_moveit_config/share/panda_moveit_config/config/ros2_controllers.yaml</parameters>
+</plugin>
+] not converted from URDF, probably already in SDF format.
+Dbg [parser_urdf.cc:424] Fixed Joint Reduction: extension lumping from [hand_tcp] to [hand]
+Dbg [parser_urdf.cc:2572]   STRING REPLACE: instances of _link name [hand_tcp] with [hand]
+Dbg [parser_urdf.cc:2579]         INITIAL STRING link [hand_tcp]-->[hand]: [<plugin filename="ign_ros2_control-system" name="ign_ros2_control::IgnitionROS2ControlPlugin">
+    <parameters>/home/user/ros2_ws/install/panda_moveit_config/share/panda_moveit_config/config/ros2_controllers.yaml</parameters>
+</plugin>
+]
+Dbg [parser_urdf.cc:2572]   STRING REPLACE: instances of _link name [hand_tcp] with [hand]
+Dbg [parser_urdf.cc:2579]         INITIAL STRING link [hand_tcp]-->[hand]: [<frame name="hand_tcp_virtual_joint" attached_to="hand">
+    <pose>0 0 0.1034 0 -0 0</pose>
+</frame>
+]
+Dbg [parser_urdf.cc:2579]         INITIAL STRING link [hand_tcp]-->[hand]: [<frame name="hand_tcp" attached_to="hand_tcp_virtual_joint"/>
+]
+Dbg [parser_urdf.cc:2572]   STRING REPLACE: instances of _link name [hand_tcp] with [hand]
+Dbg [parser_urdf.cc:2572]   STRING REPLACE: instances of _link name [hand_tcp] with [hand]
+Dbg [parser_urdf.cc:2572]   STRING REPLACE: instances of _link name [hand_tcp] with [hand]
+Dbg [parser_urdf.cc:2572]   STRING REPLACE: instances of _link name [hand_tcp] with [hand]
+Dbg [parser_urdf.cc:2572]   STRING REPLACE: instances of _link name [hand_tcp] with [hand]
+Dbg [parser_urdf.cc:2572]   STRING REPLACE: instances of _link name [hand_tcp] with [hand]
+Dbg [parser_urdf.cc:2572]   STRING REPLACE: instances of _link name [hand_tcp] with [hand]
+Dbg [parser_urdf.cc:2572]   STRING REPLACE: instances of _link name [hand_tcp] with [hand]
+Dbg [parser_urdf.cc:2572]   STRING REPLACE: instances of _link name [hand_tcp] with [hand]
+Dbg [parser_urdf.cc:2572]   STRING REPLACE: instances of _link name [hand_tcp] with [hand]
+Dbg [parser_urdf.cc:2572]   STRING REPLACE: instances of _link name [hand_tcp] with [hand]
+Dbg [parser_urdf.cc:2572]   STRING REPLACE: instances of _link name [hand_tcp] with [hand]
+Dbg [parser_urdf.cc:2572]   STRING REPLACE: instances of _link name [hand_tcp] with [hand]
+Dbg [parser_urdf.cc:2572]   STRING REPLACE: instances of _link name [hand_tcp] with [hand]
+Dbg [parser_urdf.cc:2572]   STRING REPLACE: instances of _link name [hand_tcp] with [hand]
+Dbg [parser_urdf.cc:2572]   STRING REPLACE: instances of _link name [hand_tcp] with [hand]
+Dbg [parser_urdf.cc:2572]   STRING REPLACE: instances of _link name [hand_tcp] with [hand]
+Dbg [parser_urdf.cc:2572]   STRING REPLACE: instances of _link name [hand_tcp] with [hand]
+Dbg [parser_urdf.cc:2572]   STRING REPLACE: instances of _link name [hand_tcp] with [hand]
+Dbg [parser_urdf.cc:2572]   STRING REPLACE: instances of _link name [hand_tcp] with [hand]
+Dbg [parser_urdf.cc:424] Fixed Joint Reduction: extension lumping from [hand] to [link8]
+Dbg [parser_urdf.cc:2506]   REDUCE EXTENSION: moving reference from [hand] to [link8]
+Dbg [parser_urdf.cc:2572]   STRING REPLACE: instances of _link name [hand] with [link8]
+Dbg [parser_urdf.cc:2579]         INITIAL STRING link [hand]-->[link8]: [<plugin filename="ign_ros2_control-system" name="ign_ros2_control::IgnitionROS2ControlPlugin">
+    <parameters>/home/user/ros2_ws/install/panda_moveit_config/share/panda_moveit_config/config/ros2_controllers.yaml</parameters>
+</plugin>
+]
+Dbg [parser_urdf.cc:2572]   STRING REPLACE: instances of _link name [hand] with [link8]
+Dbg [parser_urdf.cc:2579]         INITIAL STRING link [hand]-->[link8]: [<frame name="hand_tcp_virtual_joint" attached_to="hand">
+    <pose>0 0 0.1034 0 -0 0</pose>
+</frame>
+]
+Dbg [parser_urdf.cc:2579]         INITIAL STRING link [hand]-->[link8]: [<frame name="hand_tcp" attached_to="hand_tcp_virtual_joint"/>
+]
+Dbg [parser_urdf.cc:2572]   STRING REPLACE: instances of _link name [hand] with [link8]
+Dbg [parser_urdf.cc:2579]         INITIAL STRING link [hand]-->[link8]: [<frame name="joint_wrist" attached_to="link8">
+    <pose>0 0 0 0 -0 0</pose>
+</frame>
+]
+Dbg [parser_urdf.cc:2579]         INITIAL STRING link [hand]-->[link8]: [<frame name="hand" attached_to="joint_wrist"/>
+]
+Dbg [parser_urdf.cc:2572]   STRING REPLACE: instances of _link name [hand] with [link8]
+Dbg [parser_urdf.cc:2572]   STRING REPLACE: instances of _link name [hand] with [link8]
+Dbg [parser_urdf.cc:2572]   STRING REPLACE: instances of _link name [hand] with [link8]
+Dbg [parser_urdf.cc:2572]   STRING REPLACE: instances of _link name [hand] with [link8]
+Dbg [parser_urdf.cc:2572]   STRING REPLACE: instances of _link name [hand] with [link8]
+Dbg [parser_urdf.cc:2572]   STRING REPLACE: instances of _link name [hand] with [link8]
+Dbg [parser_urdf.cc:2572]   STRING REPLACE: instances of _link name [hand] with [link8]
+Dbg [parser_urdf.cc:2572]   STRING REPLACE: instances of _link name [hand] with [link8]
+Dbg [parser_urdf.cc:2572]   STRING REPLACE: instances of _link name [hand] with [link8]
+Dbg [parser_urdf.cc:2572]   STRING REPLACE: instances of _link name [hand] with [link8]
+Dbg [parser_urdf.cc:2572]   STRING REPLACE: instances of _link name [hand] with [link8]
+Dbg [parser_urdf.cc:2572]   STRING REPLACE: instances of _link name [hand] with [link8]
+Dbg [parser_urdf.cc:2572]   STRING REPLACE: instances of _link name [hand] with [link8]
+Dbg [parser_urdf.cc:2572]   STRING REPLACE: instances of _link name [hand] with [link8]
+Dbg [parser_urdf.cc:2572]   STRING REPLACE: instances of _link name [hand] with [link8]
+Dbg [parser_urdf.cc:2572]   STRING REPLACE: instances of _link name [hand] with [link8]
+Dbg [parser_urdf.cc:2572]   STRING REPLACE: instances of _link name [hand] with [link8]
+Dbg [parser_urdf.cc:2572]   STRING REPLACE: instances of _link name [hand] with [link8]
+Dbg [parser_urdf.cc:2572]   STRING REPLACE: instances of _link name [hand] with [link8]
+Dbg [parser_urdf.cc:2572]   STRING REPLACE: instances of _link name [hand] with [link8]
+Dbg [parser_urdf.cc:756] LINK NAME: [parent: link8] from dMass
+Dbg [parser_urdf.cc:757]      MASS: [0]
+Dbg [parser_urdf.cc:758]        CG: [0, 0, 0]
+Dbg [parser_urdf.cc:760]         I: [0, 0, 0]
+Dbg [parser_urdf.cc:762]            [0, 0, 0]
+Dbg [parser_urdf.cc:764]            [0, 0, 0]
+Dbg [parser_urdf.cc:756] LINK NAME: [link : hand] from dMass
+Dbg [parser_urdf.cc:757]      MASS: [0.140608]
+Dbg [parser_urdf.cc:758]        CG: [0, 0, 0]
+Dbg [parser_urdf.cc:760]         I: [0.000536545, 1.7912e-08, -2.32007e-08]
+Dbg [parser_urdf.cc:762]            [1.7912e-08, 7.70512e-05, 4.68115e-08]
+Dbg [parser_urdf.cc:764]            [-2.32007e-08, 4.68115e-08, 0.000493818]
+Dbg [parser_urdf.cc:756] LINK NAME: [link in parent link: hand] from dMass
+Dbg [parser_urdf.cc:757]      MASS: [0.140608]
+Dbg [parser_urdf.cc:758]        CG: [-6.7624e-06, 0.00152435, 0.0275912]
+Dbg [parser_urdf.cc:760]         I: [0.000643913, 1.93614e-08, 3.03424e-09]
+Dbg [parser_urdf.cc:762]            [1.93614e-08, 0.000184092, -5.86696e-06]
+Dbg [parser_urdf.cc:764]            [3.03424e-09, -5.86696e-06, 0.000494144]
+Dbg [parser_urdf.cc:756] LINK NAME: [combined: link8] from dMass
+Dbg [parser_urdf.cc:757]      MASS: [0.140608]
+Dbg [parser_urdf.cc:758]        CG: [-6.7624e-06, 0.00152435, 0.0275912]
+Dbg [parser_urdf.cc:760]         I: [0.000643913, 1.93614e-08, 3.03424e-09]
+Dbg [parser_urdf.cc:762]            [1.93614e-08, 0.000184092, -5.86696e-06]
+Dbg [parser_urdf.cc:764]            [3.03424e-09, -5.86696e-06, 0.000494144]
+Dbg [parser_urdf.cc:772] LINK NAME: [link8] from dMass
+Dbg [parser_urdf.cc:773]      MASS: [0.140608]
+Dbg [parser_urdf.cc:774]        CG: [-6.7624e-06, 0.00152435, 0.0275912]
+Dbg [parser_urdf.cc:777]         I: [0.000536545, 1.7912e-08, -2.32007e-08]
+Dbg [parser_urdf.cc:780]            [1.7912e-08, 7.70512e-05, 4.68115e-08]
+Dbg [parser_urdf.cc:783]            [-2.32007e-08, 4.68115e-08, 0.000493818]
+Dbg [parser_urdf.cc:983] lumping visual [] for link [hand] to parent [link8] with name [hand]
+Dbg [parser_urdf.cc:1042] lumping collision [] for link [hand] to parent [link8] with name [hand]
+Dbg [parser_urdf.cc:424] Fixed Joint Reduction: extension lumping from [link8] to [link7]
+Dbg [parser_urdf.cc:2506]   REDUCE EXTENSION: moving reference from [link8] to [link7]
+Dbg [parser_urdf.cc:2572]   STRING REPLACE: instances of _link name [link8] with [link7]
+Dbg [parser_urdf.cc:2579]         INITIAL STRING link [link8]-->[link7]: [<plugin filename="ign_ros2_control-system" name="ign_ros2_control::IgnitionROS2ControlPlugin">
+    <parameters>/home/user/ros2_ws/install/panda_moveit_config/share/panda_moveit_config/config/ros2_controllers.yaml</parameters>
+</plugin>
+]
+Dbg [parser_urdf.cc:2572]   STRING REPLACE: instances of _link name [link8] with [link7]
+Dbg [parser_urdf.cc:2579]         INITIAL STRING link [link8]-->[link7]: [<frame name="hand_tcp_virtual_joint" attached_to="hand">
+    <pose>0 0 0.1034 0 -0 0</pose>
+</frame>
+]
+Dbg [parser_urdf.cc:2579]         INITIAL STRING link [link8]-->[link7]: [<frame name="hand_tcp" attached_to="hand_tcp_virtual_joint"/>
+]
+Dbg [parser_urdf.cc:2572]   STRING REPLACE: instances of _link name [link8] with [link7]
+Dbg [parser_urdf.cc:2579]         INITIAL STRING link [link8]-->[link7]: [<frame name="joint_wrist" attached_to="link8">
+    <pose>0 0 0 0 -0 0</pose>
+</frame>
+]
+Dbg [parser_urdf.cc:2579]         INITIAL STRING link [link8]-->[link7]: [<frame name="hand" attached_to="joint_wrist"/>
+]
+Dbg [parser_urdf.cc:2572]   STRING REPLACE: instances of _link name [link8] with [link7]
+Dbg [parser_urdf.cc:2579]         INITIAL STRING link [link8]-->[link7]: [<frame name="link8_virtual_joint" attached_to="link7">
+    <pose>0 0 0.107 0 0 -0.785398</pose>
+</frame>
+]
+Dbg [parser_urdf.cc:2579]         INITIAL STRING link [link8]-->[link7]: [<frame name="link8" attached_to="link8_virtual_joint"/>
+]
+Dbg [parser_urdf.cc:2572]   STRING REPLACE: instances of _link name [link8] with [link7]
+Dbg [parser_urdf.cc:2572]   STRING REPLACE: instances of _link name [link8] with [link7]
+Dbg [parser_urdf.cc:2572]   STRING REPLACE: instances of _link name [link8] with [link7]
+Dbg [parser_urdf.cc:2572]   STRING REPLACE: instances of _link name [link8] with [link7]
+Dbg [parser_urdf.cc:2572]   STRING REPLACE: instances of _link name [link8] with [link7]
+Dbg [parser_urdf.cc:2572]   STRING REPLACE: instances of _link name [link8] with [link7]
+Dbg [parser_urdf.cc:2572]   STRING REPLACE: instances of _link name [link8] with [link7]
+Dbg [parser_urdf.cc:2572]   STRING REPLACE: instances of _link name [link8] with [link7]
+Dbg [parser_urdf.cc:2572]   STRING REPLACE: instances of _link name [link8] with [link7]
+Dbg [parser_urdf.cc:2572]   STRING REPLACE: instances of _link name [link8] with [link7]
+Dbg [parser_urdf.cc:2572]   STRING REPLACE: instances of _link name [link8] with [link7]
+Dbg [parser_urdf.cc:2572]   STRING REPLACE: instances of _link name [link8] with [link7]
+Dbg [parser_urdf.cc:2572]   STRING REPLACE: instances of _link name [link8] with [link7]
+Dbg [parser_urdf.cc:2572]   STRING REPLACE: instances of _link name [link8] with [link7]
+Dbg [parser_urdf.cc:2572]   STRING REPLACE: instances of _link name [link8] with [link7]
+Dbg [parser_urdf.cc:2572]   STRING REPLACE: instances of _link name [link8] with [link7]
+Dbg [parser_urdf.cc:2572]   STRING REPLACE: instances of _link name [link8] with [link7]
+Dbg [parser_urdf.cc:2572]   STRING REPLACE: instances of _link name [link8] with [link7]
+Dbg [parser_urdf.cc:2572]   STRING REPLACE: instances of _link name [link8] with [link7]
+Dbg [parser_urdf.cc:2572]   STRING REPLACE: instances of _link name [link8] with [link7]
+Dbg [parser_urdf.cc:756] LINK NAME: [parent: link7] from dMass
+Dbg [parser_urdf.cc:757]      MASS: [0.523767]
+Dbg [parser_urdf.cc:758]        CG: [0.0109695, 0.0107965, 0.0650412]
+Dbg [parser_urdf.cc:760]         I: [0.00313892, -0.000180742, -0.000335026]
+Dbg [parser_urdf.cc:762]            [-0.000180742, 0.00314006, -0.000458377]
+Dbg [parser_urdf.cc:764]            [-0.000335026, -0.000458377, 0.000820191]
+Dbg [parser_urdf.cc:756] LINK NAME: [link : link8] from dMass
+Dbg [parser_urdf.cc:757]      MASS: [0.140608]
+Dbg [parser_urdf.cc:758]        CG: [0, 0, 0]
+Dbg [parser_urdf.cc:760]         I: [0.000536545, 1.7912e-08, -2.32007e-08]
+Dbg [parser_urdf.cc:762]            [1.7912e-08, 7.70512e-05, 4.68115e-08]
+Dbg [parser_urdf.cc:764]            [-2.32007e-08, 4.68115e-08, 0.000493818]
+Dbg [parser_urdf.cc:756] LINK NAME: [link in parent link: link8] from dMass
+Dbg [parser_urdf.cc:757]      MASS: [0.140608]
+Dbg [parser_urdf.cc:758]        CG: [0.0010731, 0.00108266, 0.134591]
+Dbg [parser_urdf.cc:760]         I: [0.00285406, -0.00022991, -2.02912e-05]
+Dbg [parser_urdf.cc:762]            [-0.00022991, 0.00285402, -2.04393e-05]
+Dbg [parser_urdf.cc:764]            [-2.02912e-05, -2.04393e-05, 0.000494144]
+Dbg [parser_urdf.cc:756] LINK NAME: [combined: link7] from dMass
+Dbg [parser_urdf.cc:757]      MASS: [0.664374]
+Dbg [parser_urdf.cc:758]        CG: [0.00887503, 0.00874067, 0.0797607]
+Dbg [parser_urdf.cc:760]         I: [0.00599298, -0.000410652, -0.000355317]
+Dbg [parser_urdf.cc:762]            [-0.000410652, 0.00599408, -0.000478816]
+Dbg [parser_urdf.cc:764]            [-0.000355317, -0.000478816, 0.00131434]
+Dbg [parser_urdf.cc:772] LINK NAME: [link7] from dMass
+Dbg [parser_urdf.cc:773]      MASS: [0.664374]
+Dbg [parser_urdf.cc:774]        CG: [0.00887503, 0.00874067, 0.0797607]
+Dbg [parser_urdf.cc:777]         I: [0.00171562, -0.000359114, 0.00011498]
+Dbg [parser_urdf.cc:780]            [-0.000359114, 0.00171515, -1.56392e-05]
+Dbg [parser_urdf.cc:783]            [0.00011498, -1.56392e-05, 0.00121125]
+Dbg [parser_urdf.cc:983] lumping visual [hand] for link [link8] to parent [link7] with name [hand]
+Dbg [parser_urdf.cc:1042] lumping collision [hand] for link [link8] to parent [link7] with name [hand]
+Dbg [parser_urdf.cc:2892] creating collision for link [link0] collision []
+Dbg [parser_urdf.cc:2937] creating visual for link [link0] visual []
+Dbg [parser_urdf.cc:2114] inserting extension with reference [link0] into link.
+Dbg [parser_urdf.cc:2892] creating collision for link [link1] collision []
+Dbg [parser_urdf.cc:2937] creating visual for link [link1] visual []
+Dbg [parser_urdf.cc:2114] inserting extension with reference [link1] into link.
+Dbg [parser_urdf.cc:2892] creating collision for link [link2] collision []
+Dbg [parser_urdf.cc:2937] creating visual for link [link2] visual []
+Dbg [parser_urdf.cc:2114] inserting extension with reference [link2] into link.
+Dbg [parser_urdf.cc:2892] creating collision for link [link3] collision []
+Dbg [parser_urdf.cc:2937] creating visual for link [link3] visual []
+Dbg [parser_urdf.cc:2114] inserting extension with reference [link3] into link.
+Dbg [parser_urdf.cc:2892] creating collision for link [link4] collision []
+Dbg [parser_urdf.cc:2937] creating visual for link [link4] visual []
+Dbg [parser_urdf.cc:2114] inserting extension with reference [link4] into link.
+Dbg [parser_urdf.cc:2892] creating collision for link [link5] collision []
+Dbg [parser_urdf.cc:2937] creating visual for link [link5] visual []
+Dbg [parser_urdf.cc:2114] inserting extension with reference [link5] into link.
+Dbg [parser_urdf.cc:2892] creating collision for link [link6] collision []
+Dbg [parser_urdf.cc:2937] creating visual for link [link6] visual []
+Dbg [parser_urdf.cc:2114] inserting extension with reference [link6] into link.
+Dbg [parser_urdf.cc:2892] creating collision for link [link7] collision []
+Dbg [parser_urdf.cc:2892] creating collision for link [link7] collision [hand]
+Dbg [parser_urdf.cc:2937] creating visual for link [link7] visual []
+Dbg [parser_urdf.cc:2937] creating visual for link [link7] visual [hand]
+Dbg [parser_urdf.cc:2114] inserting extension with reference [link7] into link.
+Dbg [parser_urdf.cc:2892] creating collision for link [leftfinger] collision []
+Dbg [parser_urdf.cc:2937] creating visual for link [leftfinger] visual []
+Dbg [parser_urdf.cc:2114] inserting extension with reference [leftfinger] into link.
+Dbg [parser_urdf.cc:2892] creating collision for link [rightfinger] collision []
+Dbg [parser_urdf.cc:2937] creating visual for link [rightfinger] visual []
+Dbg [parser_urdf.cc:2114] inserting extension with reference [rightfinger] into link.
+Dbg [parser.cc:954] Converting a deprecated source[<urdf-string>].
+Dbg [Converter.cc:106] Version[1.7] to Version[1.9]
+  Please use the gz sdf tool to update your SDF files.
+    $ gz sdf -c [sdf_file]
+Dbg [parser.cc:843] Parsing from urdf.

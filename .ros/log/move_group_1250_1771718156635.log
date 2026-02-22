@@ -1,0 +1,128 @@
+[INFO] [1771718156.794811227] [moveit_rdf_loader.rdf_loader]: Loaded robot model in 0.0813528 seconds
+[INFO] [1771718156.795901401] [moveit_robot_model.robot_model]: Loading robot model 'panda'...
+[INFO] [1771718156.795959054] [moveit_robot_model.robot_model]: No root/virtual joint specified in SRDF. Assuming fixed joint
+[INFO] [1771718156.965706336] [moveit_ros.planning_scene_monitor.planning_scene_monitor]: Publishing maintained planning scene on 'monitored_planning_scene'
+[INFO] [1771718156.966049939] [moveit.ros_planning_interface.moveit_cpp]: Listening to 'joint_states' for joint states
+[INFO] [1771718156.967563801] [moveit_ros.current_state_monitor]: Listening to joint states on topic 'joint_states'
+[INFO] [1771718156.968512467] [moveit_ros.planning_scene_monitor.planning_scene_monitor]: Listening to '/attached_collision_object' for attached collision objects
+[INFO] [1771718156.968551667] [moveit_ros.planning_scene_monitor.planning_scene_monitor]: Starting planning scene monitor
+[INFO] [1771718156.969397138] [moveit_ros.planning_scene_monitor.planning_scene_monitor]: Listening to '/planning_scene'
+[INFO] [1771718156.969435677] [moveit_ros.planning_scene_monitor.planning_scene_monitor]: Starting world geometry update monitor for collision objects, attached objects, octomap updates.
+[INFO] [1771718156.970235730] [moveit_ros.planning_scene_monitor.planning_scene_monitor]: Listening to 'collision_object'
+[INFO] [1771718156.971375265] [moveit_ros.planning_scene_monitor.planning_scene_monitor]: Listening to 'planning_scene_world' for planning scene world geometry
+[WARN] [1771718156.973017852] [moveit.ros.occupancy_map_monitor.middleware_handle]: Resolution not specified for Octomap. Assuming resolution = 0.1 instead
+[INFO] [1771718157.307587212] [moveit.ros.perception.pointcloud_octomap_updater]: Listening to '/head_mount_kinect/depth_registered/points' using message filter with target frame 'world '
+[INFO] [1771718157.630374518] [moveit.ros_planning_interface.moveit_cpp]: Loading planning pipeline 'chomp'
+[INFO] [1771718157.643857109] [moveit.ros_planning.planning_pipeline]: Using planning interface 'CHOMP'
+[INFO] [1771718157.657613605] [moveit_ros.add_time_optimal_parameterization]: Param 'chomp.path_tolerance' was not set. Using default value: 0.100000
+[INFO] [1771718157.657681655] [moveit_ros.add_time_optimal_parameterization]: Param 'chomp.resample_dt' was not set. Using default value: 0.100000
+[INFO] [1771718157.657688146] [moveit_ros.add_time_optimal_parameterization]: Param 'chomp.min_angle_change' was not set. Using default value: 0.001000
+[INFO] [1771718157.657727931] [moveit_ros.fix_workspace_bounds]: Param 'chomp.default_workspace_bounds' was not set. Using default value: 10.000000
+[INFO] [1771718157.657746182] [moveit_ros.fix_start_state_bounds]: Param 'chomp.start_state_max_bounds_error' was set to 0.100000
+[INFO] [1771718157.657753116] [moveit_ros.fix_start_state_bounds]: Param 'chomp.start_state_max_dt' was not set. Using default value: 0.500000
+[INFO] [1771718157.657765949] [moveit_ros.fix_start_state_collision]: Param 'chomp.start_state_max_dt' was not set. Using default value: 0.500000
+[INFO] [1771718157.657770779] [moveit_ros.fix_start_state_collision]: Param 'chomp.jiggle_fraction' was set to 0.050000
+[INFO] [1771718157.657776819] [moveit_ros.fix_start_state_collision]: Param 'chomp.max_sampling_attempts' was not set. Using default value: 100
+[INFO] [1771718157.657790358] [moveit.ros_planning.planning_pipeline]: Using planning request adapter 'Add Time Optimal Parameterization'
+[INFO] [1771718157.657795043] [moveit.ros_planning.planning_pipeline]: Using planning request adapter 'Resolve constraint frames to robot links'
+[INFO] [1771718157.657798321] [moveit.ros_planning.planning_pipeline]: Using planning request adapter 'Fix Workspace Bounds'
+[INFO] [1771718157.657801515] [moveit.ros_planning.planning_pipeline]: Using planning request adapter 'Fix Start State Bounds'
+[INFO] [1771718157.657804478] [moveit.ros_planning.planning_pipeline]: Using planning request adapter 'Fix Start State In Collision'
+[INFO] [1771718157.657807324] [moveit.ros_planning.planning_pipeline]: Using planning request adapter 'Fix Start State Path Constraints'
+[INFO] [1771718157.670738784] [moveit.ros_planning_interface.moveit_cpp]: Loading planning pipeline 'ompl'
+[INFO] [1771718157.725830271] [moveit.ros_planning.planning_pipeline]: Using planning interface 'OMPL'
+[INFO] [1771718157.729053765] [moveit_ros.add_time_optimal_parameterization]: Param 'ompl.path_tolerance' was not set. Using default value: 0.100000
+[INFO] [1771718157.729108379] [moveit_ros.add_time_optimal_parameterization]: Param 'ompl.resample_dt' was not set. Using default value: 0.100000
+[INFO] [1771718157.729120835] [moveit_ros.add_time_optimal_parameterization]: Param 'ompl.min_angle_change' was not set. Using default value: 0.001000
+[INFO] [1771718157.729165823] [moveit_ros.fix_workspace_bounds]: Param 'ompl.default_workspace_bounds' was not set. Using default value: 10.000000
+[INFO] [1771718157.729196328] [moveit_ros.fix_start_state_bounds]: Param 'ompl.start_state_max_bounds_error' was set to 0.100000
+[INFO] [1771718157.729208543] [moveit_ros.fix_start_state_bounds]: Param 'ompl.start_state_max_dt' was not set. Using default value: 0.500000
+[INFO] [1771718157.729231668] [moveit_ros.fix_start_state_collision]: Param 'ompl.start_state_max_dt' was not set. Using default value: 0.500000
+[INFO] [1771718157.729242700] [moveit_ros.fix_start_state_collision]: Param 'ompl.jiggle_fraction' was set to 0.050000
+[INFO] [1771718157.729251743] [moveit_ros.fix_start_state_collision]: Param 'ompl.max_sampling_attempts' was not set. Using default value: 100
+[INFO] [1771718157.729273730] [moveit.ros_planning.planning_pipeline]: Using planning request adapter 'Add Time Optimal Parameterization'
+[INFO] [1771718157.729329177] [moveit.ros_planning.planning_pipeline]: Using planning request adapter 'Resolve constraint frames to robot links'
+[INFO] [1771718157.729339986] [moveit.ros_planning.planning_pipeline]: Using planning request adapter 'Fix Workspace Bounds'
+[INFO] [1771718157.729347079] [moveit.ros_planning.planning_pipeline]: Using planning request adapter 'Fix Start State Bounds'
+[INFO] [1771718157.729353615] [moveit.ros_planning.planning_pipeline]: Using planning request adapter 'Fix Start State In Collision'
+[INFO] [1771718157.729359974] [moveit.ros_planning.planning_pipeline]: Using planning request adapter 'Fix Start State Path Constraints'
+[INFO] [1771718157.731279871] [moveit.ros_planning_interface.moveit_cpp]: Loading planning pipeline 'pilz_industrial_motion_planner'
+[INFO] [1771718157.740353465] [moveit.pilz_industrial_motion_planner.joint_limits_aggregator]: Reading limits from namespace robot_description_planning
+[INFO] [1771718157.772019505] [moveit.pilz_industrial_motion_planner]: Available plugins: pilz_industrial_motion_planner/PlanningContextLoaderCIRC pilz_industrial_motion_planner/PlanningContextLoaderLIN pilz_industrial_motion_planner/PlanningContextLoaderPTP 
+[INFO] [1771718157.772116476] [moveit.pilz_industrial_motion_planner]: About to load: pilz_industrial_motion_planner/PlanningContextLoaderCIRC
+[INFO] [1771718157.785068443] [moveit.pilz_industrial_motion_planner]: Registered Algorithm [CIRC]
+[INFO] [1771718157.785230631] [moveit.pilz_industrial_motion_planner]: About to load: pilz_industrial_motion_planner/PlanningContextLoaderLIN
+[INFO] [1771718157.790602344] [moveit.pilz_industrial_motion_planner]: Registered Algorithm [LIN]
+[INFO] [1771718157.790705146] [moveit.pilz_industrial_motion_planner]: About to load: pilz_industrial_motion_planner/PlanningContextLoaderPTP
+[INFO] [1771718157.794244588] [moveit.pilz_industrial_motion_planner]: Registered Algorithm [PTP]
+[INFO] [1771718157.794357353] [moveit.ros_planning.planning_pipeline]: Using planning interface 'Pilz Industrial Motion Planner'
+[INFO] [1771718157.927933142] [moveit.plugins.moveit_simple_controller_manager]: Added FollowJointTrajectory controller for arm_controller
+[INFO] [1771718157.934612883] [moveit.plugins.moveit_simple_controller_manager]: Added FollowJointTrajectory controller for eef_controller
+[INFO] [1771718157.935096278] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[INFO] [1771718157.935171607] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[INFO] [1771718157.937501380] [moveit_ros.trajectory_execution_manager]: Trajectory execution is managing controllers
+[INFO] [1771718157.937690347] [move_group.move_group]: MoveGroup debug mode is ON
+[INFO] [1771718158.022596794] [move_group.move_group]: 
+
+********************************************************
+* MoveGroup using: 
+*     - ApplyPlanningSceneService
+*     - ClearOctomapService
+*     - CartesianPathService
+*     - ExecuteTrajectoryAction
+*     - GetPlanningSceneService
+*     - KinematicsService
+*     - MoveAction
+*     - MotionPlanService
+*     - QueryPlannersService
+*     - StateValidationService
+********************************************************
+
+[INFO] [1771718158.022695393] [moveit_move_group_capabilities_base.move_group_context]: MoveGroup context using planning plugin ompl_interface/OMPLPlanner
+[INFO] [1771718158.022710443] [moveit_move_group_capabilities_base.move_group_context]: MoveGroup context initialization complete
+[WARN] [1771718314.082828526] [tf2_buffer]: Detected time source change. Clearing TF buffer.
+[WARN] [1771718314.082893767] [tf2_buffer]: Detected time source change. Clearing TF buffer.
+[WARN] [1771718314.082950892] [tf2_buffer]: Detected time source change. Clearing TF buffer.
+[INFO] [1771718456.334082909] [moveit_move_group_default_capabilities.move_action_capability]: Received request
+[INFO] [1771718456.334889348] [moveit_move_group_default_capabilities.move_action_capability]: executing..
+[INFO] [1771718456.335734383] [moveit_move_group_default_capabilities.move_action_capability]: Combined planning and execution request received for MoveGroup action. Forwarding to planning and execution pipeline.
+[WARN] [1771718456.335887927] [moveit_move_group_capabilities_base.move_group_capability]: Execution of motions should always start at the robot's current state. Ignoring the state supplied as start state in the motion planning request
+[WARN] [1771718456.335924306] [moveit_move_group_capabilities_base.move_group_capability]: Execution of motions should always start at the robot's current state. Ignoring the state supplied as difference in the planning scene diff
+[INFO] [1771718456.335963074] [moveit_ros.plan_execution]: Planning attempt 1 of at most 1
+[INFO] [1771718456.346704348] [moveit_planning_interface.planning_interface]: The timeout for planning must be positive (0.000000 specified). Assuming one second instead.
+[INFO] [1771718456.349244684] [moveit.ompl_planning.model_based_planning_context]: Planner configuration 'arm' will use planner 'geometric::RRTConnect'. Additional configuration parameters will be set when the planner is constructed.
+[WARN] [1771718456.376485404] [moveit_trajectory_processing.time_optimal_trajectory_generation]: Joint acceleration limits are not defined. Using the default 1 rad/s^2. You can define acceleration limits in the URDF or joint_limits.yaml.
+[INFO] [1771718456.378156752] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[INFO] [1771718456.378331612] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[INFO] [1771718456.378475669] [moveit_ros.trajectory_execution_manager]: Validating trajectory with allowed_start_tolerance 0.01
+[INFO] [1771718456.378646233] [moveit_ros.trajectory_execution_manager]: Starting trajectory execution ...
+[INFO] [1771718456.378780279] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[INFO] [1771718456.378875061] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[INFO] [1771718456.379193725] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: sending trajectory to arm_controller
+[INFO] [1771718456.388697584] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: arm_controller started execution
+[INFO] [1771718456.388949729] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: Goal request accepted!
+[WARN] [1771718457.911621489] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: waitForExecution timed out
+[WARN] [1771718457.911785829] [moveit_ros.trajectory_execution_manager]: Controller handle arm_controller reports status RUNNING
+[INFO] [1771718457.911854034] [moveit_ros.trajectory_execution_manager]: Completed trajectory execution with status RUNNING ...
+[INFO] [1771718457.919034180] [moveit_move_group_default_capabilities.move_action_capability]: Solution found but controller failed during execution
+[INFO] [1771718457.954229791] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: Controller 'arm_controller' successfully finished
+[INFO] [1771718468.089122719] [moveit_move_group_default_capabilities.move_action_capability]: Received request
+[INFO] [1771718468.089695291] [moveit_move_group_default_capabilities.move_action_capability]: executing..
+[INFO] [1771718468.089865109] [moveit_move_group_default_capabilities.move_action_capability]: Combined planning and execution request received for MoveGroup action. Forwarding to planning and execution pipeline.
+[WARN] [1771718468.089917813] [moveit_move_group_capabilities_base.move_group_capability]: Execution of motions should always start at the robot's current state. Ignoring the state supplied as start state in the motion planning request
+[WARN] [1771718468.089943959] [moveit_move_group_capabilities_base.move_group_capability]: Execution of motions should always start at the robot's current state. Ignoring the state supplied as difference in the planning scene diff
+[INFO] [1771718468.089958648] [moveit_ros.plan_execution]: Planning attempt 1 of at most 1
+[INFO] [1771718468.091888429] [moveit_planning_interface.planning_interface]: The timeout for planning must be positive (0.000000 specified). Assuming one second instead.
+[INFO] [1771718468.092645522] [moveit.ompl_planning.model_based_planning_context]: Planner configuration 'arm' will use planner 'geometric::RRTConnect'. Additional configuration parameters will be set when the planner is constructed.
+[INFO] [1771718468.111183469] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[INFO] [1771718468.111456456] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[INFO] [1771718468.111583083] [moveit_ros.trajectory_execution_manager]: Validating trajectory with allowed_start_tolerance 0.01
+[INFO] [1771718468.111976902] [moveit_ros.trajectory_execution_manager]: Starting trajectory execution ...
+[INFO] [1771718468.112103875] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[INFO] [1771718468.112161388] [moveit.plugins.moveit_simple_controller_manager]: Returned 2 controllers in list
+[INFO] [1771718468.112531373] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: sending trajectory to arm_controller
+[INFO] [1771718468.117490630] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: arm_controller started execution
+[INFO] [1771718468.117540697] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: Goal request accepted!
+[INFO] [1771718468.623953896] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: Controller 'arm_controller' successfully finished
+[INFO] [1771718468.624223032] [moveit_ros.trajectory_execution_manager]: Completed trajectory execution with status SUCCEEDED ...
+[INFO] [1771718468.632193561] [moveit_move_group_default_capabilities.move_action_capability]: Solution was found and executed.

@@ -3,7 +3,7 @@ services:
    ros2docker_services:
       tty: true
       image: ros2roscon
-      container_name: ros2roscon_container
+      container_name: ros2_humble_moveit
       network_mode: host
       privileged: true
       volumes: 
@@ -12,7 +12,6 @@ services:
         - /dev/input:/dev/input
         - /dev/bus/usb:/dev/bus/usb
         - /home/ivan/personal/pick_and_place_project/:/home/user/:rw
-        - ../:/home/user/ros2_ws:rw 
         - ./scripts:/scripts
       environment:
         - DISPLAY=$DISPLAY

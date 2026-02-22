@@ -1,0 +1,18 @@
+[INFO] [1771716969.216035308] [robot_state_publisher]: got segment hand
+[INFO] [1771716969.216334569] [robot_state_publisher]: got segment hand_tcp
+[INFO] [1771716969.216358826] [robot_state_publisher]: got segment leftfinger
+[INFO] [1771716969.216369883] [robot_state_publisher]: got segment link0
+[INFO] [1771716969.216379158] [robot_state_publisher]: got segment link1
+[INFO] [1771716969.216387606] [robot_state_publisher]: got segment link2
+[INFO] [1771716969.216395867] [robot_state_publisher]: got segment link3
+[INFO] [1771716969.216404259] [robot_state_publisher]: got segment link4
+[INFO] [1771716969.216412473] [robot_state_publisher]: got segment link5
+[INFO] [1771716969.216421003] [robot_state_publisher]: got segment link6
+[INFO] [1771716969.216429298] [robot_state_publisher]: got segment link7
+[INFO] [1771716969.216437539] [robot_state_publisher]: got segment link8
+[INFO] [1771716969.216445705] [robot_state_publisher]: got segment rightfinger
+[INFO] [1771716969.216454184] [robot_state_publisher]: got segment world
+[WARN] [1771716975.734003131] [robot_state_publisher]: Moved backwards in time, re-publishing joint transforms!
+[WARN] [1771717005.728205364] [robot_state_publisher]: Moved backwards in time, re-publishing joint transforms!
+[WARN] [1771717065.706801652] [robot_state_publisher]: Moved backwards in time, re-publishing joint transforms!
+[INFO] [1771717069.000413456] [rclcpp]: signal_handler(SIGINT/SIGTERM)
