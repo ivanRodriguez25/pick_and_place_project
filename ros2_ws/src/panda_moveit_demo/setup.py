@@ -24,6 +24,8 @@ setup(
             'carteian_space_motion_joint = panda_moveit_demo.cartesian_space_planning_joint:main',
             'carteian_space_motion = panda_moveit_demo.cartesian_space_planning:main',
             'continuous_movement = panda_moveit_demo.continuous_movement:main',
+            'cartesian_new = panda_moveit_demo.cartesian_new:main',
+            'controller_node = panda_moveit_demo.mine:main',
         ],
     },
 )
