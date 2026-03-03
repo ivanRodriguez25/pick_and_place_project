@@ -23,7 +23,6 @@ class CartesianNew(Node):
         self.group_name = 'arm'     
         self.joint_names = []
 
-
         qos_profile = QoSProfile(reliability=ReliabilityPolicy.RELIABLE, durability=DurabilityPolicy.TRANSIENT_LOCAL, depth=1)
         self.create_subscription(String, '/robot_description_semantic', self.srdf_callback, qos_profile)
         self.move_action_goal = MoveGroup.Goal()
